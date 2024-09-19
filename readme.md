@@ -18,3 +18,4 @@ This CRUD application is developed using Node.js, Express.js, EJS, and MongoDB. 
 - Express.js: Web framework for building the application’s backend.
 - EJS (Embedded JavaScript): Templating engine for rendering dynamic HTML pages.
 - MongoDB: Non-relational database for storing product data.
+
