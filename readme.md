@@ -20,7 +20,5 @@ This CRUD application is developed using Node.js, Express.js, EJS, and MongoDB. 
 - MongoDB: Non-relational database for storing product data.
 
 
-# One
 
-## two
 
