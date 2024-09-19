@@ -36,20 +36,6 @@ app.get('/product', async (req, res) => {
 })
 
 
-// optional 
-
-// app.get('/product', async (req, res) => {
-//     const { categoryOption } = req.query;
-//     if (categoryOption) {
-//         const component = await Product.find({category: categoryOption})
-//         res.render('products/index', { component, categoryOption })
-//     }
-//     else {
-//         const component = await Product.find({})
-//         res.render('products/index', { component})
-//     }
-// })
-
 // ⁡⁢⁣⁣ ⁡⁢⁣⁣Adding new item⁡
 app.get('/product/new', (req, res) => {
     res.render('products/newItem', { categories })
