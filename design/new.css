@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(16, 0, 43);
+}
+
+
+.container {
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h1 {
+    font-family: "Playfair Display", system-ui;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.info {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(55px);
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding: 1em;
+    margin: 2em 0;
+    border-radius: 5px;
+}
+
+.info div {
+    padding: 10px 5px;
+}
+
+.info div input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 1em;
+    color: #333;
+
+}
+
+.info div select {
+    margin: 1em;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 1em;
+}
+
+form a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: .5em .6em;
+    border-radius: 5px;
+}
+
+
+
+.submit {
+    background-color: #4895ef;
+    text-align: center;
+    color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: .5em 1em;
+    font-size: 19px;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: crimson;
+    color: #ffff;
+}
